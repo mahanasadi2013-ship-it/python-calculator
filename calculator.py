@@ -8,3 +8,6 @@ while True:
     
     elif mo == "-":
         print(num1 - num2)
+        
+    elif mo == "*":
+        print(num1 * num2)
