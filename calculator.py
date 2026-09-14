@@ -5,3 +5,6 @@ while True:
     print("—" * 41)
     if mo == "+":
         print(num1 + num2)
+    
+    elif mo == "-":
+        print(num1 - num2)
