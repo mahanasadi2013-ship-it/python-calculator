@@ -1,3 +1,8 @@
+print("—" * 41)
+print("Calculator")
+print("—" * 41)
+print("Version 0.0.0.6")
+print("—" * 41)
 while True:
     num1 = float(input("First Number: "))
     mo = input("Mathemical Operator: ")
