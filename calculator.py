@@ -1,7 +1,7 @@
 print("—" * 41)
 print("Calculator")
 print("—" * 41)
-print("Version 0.0.0.6")
+print("Version 0.0.0.7")
 print("—" * 41)
 while True:
     num1 = float(input("First Number: "))
@@ -22,4 +22,8 @@ while True:
         
     elif mo == "/":
         print(num1 / num2)
+        print("—" * 41)
+        
+    elif mo == "^":
+        print(num1 ** num2)
         print("—" * 41)
